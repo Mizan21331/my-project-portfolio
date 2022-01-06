@@ -3,7 +3,6 @@ body{
     font-family: 'Rubik', sans-serif;
     margin-left:3%; 
     margin-right:3%;
-    text-justify: auto;
 }
 section{
     display: flex;
@@ -68,8 +67,11 @@ h4{
     display: flex;
     margin-bottom: 100px;
 }
+.sec{
+    text-align: justify;
+}
 .sec-2{
-    text-align: center;
+    
     margin-left: 31%;
 }
 .sec-3{
@@ -97,13 +99,16 @@ h4{
     width: 50%;
 }
 .one{
-    background-color:rgba(153, 205, 50, 0.555)
+    background-color:rgba(153, 205, 50, 0.555);
+    padding: 10px;
 }
 .two{
     background-color: rgba(238, 130, 238, 0.788);
+    padding: 10px;
 }
 .three{
     background-color: rgba(255, 99, 71, 0.733);
+    padding: 10px;
 }
 .four{
     background-color: rgba(0, 130, 33, 0.692);
